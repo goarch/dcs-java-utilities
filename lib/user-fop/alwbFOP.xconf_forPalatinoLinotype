@@ -1,0 +1,31 @@
+<fop version="1.0">
+
+  <!-- Base URL for resolving relative URLs -->
+  <base>./</base>
+
+  <!-- Font Base URL for resolving relative font URLs -->
+  <font-base>./</font-base>
+
+	<renderers> 
+    		<renderer mime="application/pdf"> 
+       		<fonts> 
+         		<font embed-url="ttf/pala.ttf"> 
+           			<font-triplet name="Palatino Linotype" 
+           			 	style="normal" weight="normal"/> 
+         		</font> 
+         		<font embed-url="ttf/palab.ttf"> 
+           			<font-triplet name="Palatino Linotype Bold" 
+           			 	style="normal" weight="bold"/> 
+         		</font> 
+         		<font embed-url="ttf/palabi.ttf"> 
+           			<font-triplet name="Palatino Linotype Bold Italic" 
+           			 	style="italic" weight="bold"/> 
+         		</font> 
+         		<font embed-url="ttf/palai.ttf"> 
+           			<font-triplet name="Palatino Linotype Italic" 
+           			 	style="italic" weight="normal"/> 
+         		</font> 
+       		</fonts> 
+     	</renderer> 
+   	</renderers> 
+</fop>
